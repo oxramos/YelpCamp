@@ -19,7 +19,6 @@ var commentRoutes     = require("./routes/comments"),
 
 
 mongoose.connect(process.env.DATABASEURL);
-// mongoose.connect("mongodb://oscar:1079105@ds115360.mlab.com:15360/yelpcampabramos");
 
 
 app.use(bodyParser.urlencoded({extended: true}));
